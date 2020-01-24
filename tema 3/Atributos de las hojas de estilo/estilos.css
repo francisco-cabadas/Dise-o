@@ -1,0 +1,42 @@
+p {
+    color: #f00;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 25px;
+    text-decoration: underline;
+    text-align: justify;
+    text-indent: 30px;
+    text-transform: uppercase;
+    background-color: cadetblue;
+}
+
+#img1 {
+    float: left;
+    width: 220px;
+    height: 220px;
+    background-image: url(imagenes/img.png);
+
+}
+
+#caja1 {
+    width: 300px;
+    height: 300px;
+    border-color: firebrick;
+    border-width: medium;
+    border-style: double;
+    margin-left: 1cm;
+    margin-right: 3cm;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    padding-right: 2cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    padding-left: 2cm;
+    float: left;
+    clear: both;
+
+}
+
+}

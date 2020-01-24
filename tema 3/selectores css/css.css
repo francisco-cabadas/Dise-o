@@ -1,0 +1,242 @@
+.class{
+    background-color:  aqua;
+}
+.class1.class2{
+    background-color: darkgoldenrod;
+}
+
+.class3 .class4{
+    background-color: green;
+}
+#id{
+    background: blue;
+}
+
+*{
+    text-align: center;
+}
+h3{
+    text-decoration-line: underline;
+}
+h1,h2{
+    text-decoration: line-through;
+}
+div p{
+    text-decoration-line: line-through;
+}
+div > h4{
+    border: 2px solid black;
+    
+}
+div + h5{
+    font-family: cursive;
+}
+a[title]{
+   background-color: brown;
+}
+a[href="www.youtube.com"]{
+ background-color: red;
+}
+
+a[title~=palabra]{
+    background-color: blue;
+}
+a[title|=Otro]{                                   /*tiene que ir con un guión despues de la palabra, en el título, si no, no funciona*/
+     background: pink;   
+}
+a[class^=atributo]{
+    color:darkviolet; 
+    
+}
+a[href$=".org"] {
+  color: red;
+}
+
+a[href*="amazon"] {
+  background-color: forestgreen;
+}
+
+a:active {                                         /*cambia el backgruound cuando se clickea*/
+  background-color: yellow;
+}
+
+h1::after {
+  content: "- Añade esto al final en los h1";
+}
+
+h2::before{
+    content: "añade esto al principio en todos los h2 - ";
+}
+
+input:checked {
+  height: 20px;
+  width: 20px;
+}
+
+
+input[type=text]:enabled {
+  background: aqua;
+}
+
+input[type=text]:disabled {
+  background: grey;
+}
+
+p:first-child{
+ text-decoration-line: underline;   
+}
+
+p::first-letter{
+    font-size: 200%;                                                                    /*primera letra de parrafo en este caso*/
+  color: green;
+}
+
+p::first-line {
+  font-size: 130%;
+}
+
+h2:first-of-type {
+border:2px solid black;
+}
+
+input:focus {                                 /*funciona en el contador de numeros*/
+  background-color: yellow;
+}
+
+a:hover{                                        /*cambia fondo cuando pasas por encima con el ratçon*/
+    background-color: darkred;
+}
+input:in-range {
+  border: 4px solid black;
+}
+
+input:indeterminate {                          /*no funciona*/
+  box-shadow: 0 0 1px 1px red;
+}
+
+
+input:invalid {
+  border: 2px solid red;
+}
+
+p:lang(it) {                                    /*reconoce el idioma y aplica los estilos sobre ese idioma*/
+  background: yellow;
+}
+
+p:last-child {
+  background: #ff0000;
+}
+
+p:last-of-type {
+  background: blue;
+}
+
+a:link {
+  background-color: yellow;
+}
+:not(p) {
+  font-family: cursive
+}
+
+p:nth-child(3) {
+  background: purple;
+}
+
+p:nth-last-child(4) {                     /*se pisa con otro selector, pero funciona*/
+  background: green;
+}
+
+h1:nth-last-of-type(2) {
+  background: red;
+}
+
+p:only-of-type {
+     text-decoration: underline;
+}
+
+p:only-child {
+  text-align: left;
+}
+
+input:optional {                                /*lo pisa otro selector*/
+  color: darkmagenta;
+}
+
+
+input:out-of-range {
+  border: 2px solid blue;
+}
+
+::-webkit-input-placeholder {                  /* pone en el recuadro lo que debes escribir*/
+  color: red;
+}
+
+input:read-only {
+  background-color: yellow;
+}
+
+input:read-write {
+  background-color: grey;
+}
+
+
+input:required {
+  text-align: right;
+}
+
+:root {
+  background-color:beige;  
+}
+
+::selection {                                 /* al selecionar textos,etc aplica estos estilos*/
+  color: cornflowerblue;
+  background:aqua;
+}
+
+:target {                                    /* como los enlaces a zonas del pdp, los resalta con estos estilos*/
+  border: 2px solid red;
+  background-color: teal;
+}
+
+input:valid {                     /*si el contenido del input esta bien se aplica estos estilos*/
+  background-color: seagreen;
+}
+
+a:visited {                            /*si el enlace ya ha sido visitado aplica este estilo*/
+  color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

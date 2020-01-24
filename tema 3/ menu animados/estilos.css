@@ -1,0 +1,107 @@
+
+.ca-menu{
+    margin-top: -1%;
+    margin-left: 15%;
+   
+}
+.ca-menu li{             
+    width: 15%;                
+    height: 200px;             /*ancho cajas*/
+    overflow: hidden;       /*el texto no sale de la caja que la contine*/
+    position: relative;
+    float:left;
+    background:#A51515;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-right: 4px;
+    
+}
+
+.ca-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: whitesmoke;
+    position: relative;
+    margin-top: -20%;
+}
+/*.ca-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 20%;              /*margen para que este centrado el icono*/
+    /*text-align: center;
+  
+}*/
+.ca-content{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+}
+.ca-main{
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+   
+}
+.ca-sub{
+    text-align:center;
+    font-size: 12px;
+    color:  white;
+    line-height: 40px;
+    opacity: 0.8;
+    position: absolute;
+    top:100%;                       /*margen del texto inferior que reslta con color*/
+    width: 100%; 
+    
+}
+
+
+
+
+/*hover*/
+
+
+.ca-menu li:hover{
+    background-color: black;
+}
+.ca-menu li:hover .ca-icon{
+    color: white;                                          /*cambio de color cuando pasas por encima*/
+    animation: moveFromBottom 300ms ease;
+ 
+}
+.ca-menu li:hover .ca-main{
+    color: white;                                        /*color de letra cuando pasas por encima*/
+    animation: smallToBig 300ms ease;
+ ;
+}
+.ca-menu li:hover .ca-sub{
+    color: #000;
+    background-color: grey;
+    animation: moveFromBottom 500ms ease;
+  
+}
+@-webkit-keyframes smallToBig{
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        transform: translateY(50%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}

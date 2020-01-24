@@ -1,0 +1,60 @@
+header{
+    background: black;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    height: 20%;
+    box-shadow: 0 0 30px #a3ff0f;
+    color :white;
+    border-radius: 10px;
+}
+.cuadrado1{
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+ background:linear-gradient(to bottom, blue, white);          /* degradado de azul a a azul empezando por abajo*/
+}
+
+.cuadrado2{
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  background: linear-gradient(to bottom, blue, white 80%, orange);                /*degradado de azul a naranja, pasando por blanco */
+}
+.cuadrado3{
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  background: repeating-linear-gradient(-45deg, red, red 5px, white 5px, white 10px); /*degradado combinando blanco y rojo en forma de lineas diagonales*/
+}
+.cuadrado4{
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  background: radial-gradient(red 5%, yellow 25%, #1E90FF 50%);     /*degradado circular empezando desde el centro en rojo, amarillo en el centro y terminando en azul, marcada por porcenajes de distintos tamaños*/
+}
+footer{
+    text-align: end;
+    background: black;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    margin-left: -0.5%;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 0 40px #a3ff0f;
+  
+}
+ 

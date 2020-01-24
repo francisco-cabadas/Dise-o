@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap'); /*fuente cajas letras*/
+
+* {
+    box-sizing: border-box;
+}
+
+.ca-menu {
+    margin-top: 0%;
+    margin-left: 11.6%;
+
+}
+
+.ca-menu li {
+    width: 9%;
+    height: 2em;
+    /*ancho cajas*/
+    overflow: hidden;
+    /*el texto no sale de la caja que la contine*/
+    position: relative;
+    float: left;
+    background:black;
+    /*color cajas menu*/
+    margin-right: 0.1%;
+
+}
+
+.ca-menu li a {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: whitesmoke;
+    position: relative;
+    margin-top: -20%;
+}
+
+.ca-content {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+}
+
+.ca-main {
+    font-size: 1em;
+    text-align: center;
+
+}
+/*hover*/
+
+
+.ca-menu li:hover {
+    background-color: #B32020;
+}
+
+
+
+.ca-menu li:hover .ca-main {
+    color: white;
+    /*color de letra cuando pasas por encima*/
+    animation: smallToBig 300ms ease;
+    ;
+}
+
+.ca-menu li:hover .ca-sub {
+    color: #000;
+    background-color: grey;
+    animation: moveFromBottom 500ms ease;
+
+}
+
+@-webkit-keyframes smallToBig {
+    from {
+        transform: scale(0.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        transform: translateY(50%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+/*-------------------------main----------------------------------*/
+
+body {
+background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#imagen1 {
+    position: fixed;
+    top: 8%;
+    left: 0%;
+    position: fixed;
+    
+}
+
+#imagen2 {
+    position: fixed;
+    top: 48%;
+    left: 0.2%;
+
+
+}
+
+#imagen3 {
+
+    top: 8%;
+    left: 82%;
+    position: fixed;
+}
+
+#imagen4 {
+    position: fixed;
+    top: 45%;
+    left: 84%;
+
+
+}
+
+main {
+    position: absolute;
+    left: 14%;
+    top: 8%;
+    width: 70%;
+    height: 90%;
+    border: 3px solid black;
+    background: black;
+    overflow-y: scroll;
+    background-image: url(imagenes/acerca.jpg);
+    background-size: contain;
+}
+
+main p{
+    
+    padding: 2%;
+    line-height: 25px;;
+}
+.principal {
+  font-size: 18PX;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    position: absolute;
+    left: 35%;
+    top: 45%;
+ 
+}
+
+
+
+.ho {
+  background-color: black;
+  padding: 16px;
+  display: none;
+  margin-top: 53%;
+  text-align: center;
+  color: white;    
+    
+
+}
+form p{
+    
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#text2{
+  
+    width: 140%;
+    height: 15em;;
+    
+}
+#text{
+    width: 140%;
+    
+}
+#boton{
+    
+    position: absolute;
+    left: 139.5%;
+    top:92.7%;
+    
+}
+h2{
+    
+    text-align: center;
+}
+
+}
+
