@@ -1,0 +1,26 @@
+@mixin fuentes1{
+  font-size: 20px;
+  font-family: cursive;
+  background: black;
+  color: red;
+}
+@mixin fuentes2{
+  font-size: 30px;
+  font-family: "Abyssinica SIL";
+  background: red;
+  color: black;
+  text-decoration: underline;
+
+}
+
+#ejemplo1{
+
+  @include fuentes1;
+
+}
+
+#ejemplo2{
+  @include fuentes2;
+}
+
+

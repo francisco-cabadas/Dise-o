@@ -1,0 +1,45 @@
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    max-height: 300px;
+
+
+}
+#prinCarousel{
+    width: 90%;
+
+   border: 10px solid black;
+    padding: 0;                        /*quito espacio entre imagenes y borde*/
+}
+.navbar-nav > li{
+    padding-left:30px;                                  /*espacio entre opciones barra navegación*/
+    padding-right:30px;
+}
+.card{
+
+    border: 2px solid black;                   /*borde de las cartas*/
+}
+.card-deck{
+
+    padding-top: 10px;                             /*espacio entre cartas*/
+}
+#pie{
+
+    border-top: 2px solid black;                      /*borde pagina etc*/
+    text-align: center;
+    font-size: 20px;
+}
+#iconoRedondo .col{
+
+    border-radius:100%;
+    border-color: black;
+    height: 10em;
+}
+
+#ejemplo2{
+
+&:hover{
+ @include fuentes;
+
+ }
+}

@@ -1,0 +1,14 @@
+.navbar-brand:hover {
+  font-size: 30px;
+  font-family: "Abyssinica SIL";
+  background: red;
+  color: black;
+  text-decoration: underline; }
+
+ul li:hover {
+  font-size: 20px;
+  font-family: cursive;
+  background: black;
+  color: red; }
+
+/*# sourceMappingURL=estilosSass.css.map */
